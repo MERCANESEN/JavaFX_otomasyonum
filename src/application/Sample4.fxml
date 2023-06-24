@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchor_giris" prefHeight="347.0" prefWidth="407.0" style="-fx-background-color: b0e0e6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Sample4Controller">
+   <children>
+      <Label layoutX="43.0" layoutY="145.0" text="Yeni Şifre:" />
+      <Label layoutX="42.0" layoutY="195.0" text="Yeni Şifre( tekrar):" />
+      <Label fx:id="lbl_sifresonuc" layoutX="159.0" layoutY="234.0" prefHeight="18.0" prefWidth="192.0" />
+      <Button fx:id="button_degistir" layoutX="233.0" layoutY="276.0" mnemonicParsing="false" onAction="#btn_degistir" prefHeight="26.0" prefWidth="82.0" text="Değiştir" />
+      <Label layoutX="42.0" layoutY="56.0" prefHeight="18.0" prefWidth="69.0" text="E-Posta:" />
+      <TextField fx:id="text_eposta" layoutX="145.0" layoutY="53.0" />
+      <PasswordField fx:id="pas_şifre" layoutX="145.0" layoutY="141.0" />
+      <PasswordField fx:id="pas_şifretekrar" layoutX="146.0" layoutY="191.0" />
+      <Label fx:id="lbl_mevcutşifre" layoutX="42.0" layoutY="100.0" text="Eski Şifre:" />
+      <PasswordField fx:id="pas_mevcut" layoutX="146.0" layoutY="96.0" />
+   </children>
+</AnchorPane>
